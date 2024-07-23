@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark" id="htmlRoot">
+
+<head>
+    <title>Joe Westwell Developer Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Personal Portfolio page of Joe Westwell, with projects, design work and contact information.">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS v5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid px-md-5 px-lg-8 py-3 px-2">
+        <header class="border-top border-bottom border-secondary py-2 my-3">
+            <!-- Collapsable bootstrap navbar with dropdowns, see: https://getbootstrap.com/docs/5.3/components/navbar/-->
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a href="" class="navbar-brand mr-sm-4 p-0">Joe Westwell</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="mx-lg-4 collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-lg-4 m-1 "><a class="nav-link active" href="">Home</a></li>
+                            <li class="nav-item dropdown mx-lg-4 m-1"><a class="nav-link dropdown-toggle" role="button"
+                                    data-bs-toggle="dropdown" aria-label="Projects submenu" aria-expanded="false"
+                                    href="">Projects</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="">MazeGen</a></li>
+                                    <li><a class="dropdown-item" href="">Flashcards</a></li>
+                                    <li><a class="dropdown-item" href="">CRM</a></li>
+                                    <li><a class="dropdown-item" href="">Project 4</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://github.com/J-Wll">More on Github</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mx-lg-4 m-1"><a class="nav-link dropdown-toggle" role="button"
+                                    data-bs-toggle="dropdown" aria-label="Designs submenu" aria-expanded="false"
+                                    href="">Designs</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="">Watch shop</a></li>
+                                    <li><a class="dropdown-item" href="">Search engine</a></li>
+                                    <li><a class="dropdown-item" href="">Video site</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item mx-lg-4 m-1"><a class="nav-link" href="">CV & Contact</a></li>
+                            <li class="nav-item mx-lg-4 m-1 "><button id="dark-mode-toggle"
+                                    class="align-middle border border-white rounded-circle border-2"
+                                    title="Dark mode toggle button"></button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="introduction">
+                <h1 class="mt-3">Developer Portfolio</h1>
+                <p class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in molestie augue.
+                    Maecenas vitae fermentum lectus. Suspendisse ultricies ligula et metus efficitur, at finibus lorem
+                    tristique. Quisque accumsan vitae neque vitae varius. Sed id bibendum libero. Etiam non nunc vel
+                    libero tincidunt aliquam eu finibus urna. Sed pharetra iaculis placerat. Aenean aliquam vestibulum
+                    ante, ut ullamcorper velit venenatis vitae.</p>
+            </section>
+
+            <!-- Section of project banner images and captions, fitting either one or two per row depending on resolution -->
+            <!-- These project banners could also be a big carousel display, perhaps with engaging videos of each project -->
+            <section class="project-banners container-fluid my-3 pt-3 p-0 px-md-5 px-1 text-center">
+                <h2>Featured projects</h2>
+                <section class="row-1 row text-center">
+                    <figure class="banner-block col my-3">
+                        <a href=""><img class="img-banner" src="./img/p1.webp"
+                                alt="Banner image for maze gen program"></a>
+                        <figcaption class=""><a href="" class="link-body-emphasis">MazeGen v2.3</a></figcaption>
+                    </figure>
+                    <figure class="banner-block col my-3">
+                        <a href=""><img class="img-banner" src="./img/p2.webp" alt="Banner image for project 2"></a>
+                        <figcaption class=""><a href="" class="link-body-emphasis">Project 2</a></figcaption>
+                    </figure>
+                </section>
+                <section class="row-2 row text-center">
+                    <figure class="banner-block col my-3">
+                        <a href=""><img class="img-banner" src="./img/p3.webp" alt="Banner image for project 3"></a>
+                        <figcaption class=""><a href="" class="link-body-emphasis">Project 3</a></figcaption>
+                    </figure>
+                    <figure class="banner-block col my-3">
+                        <a href=""><img class="img-banner" src="./img/p4.webp" alt="Banner image for project 4"></a>
+                        <figcaption class=""><a href="" class="link-body-emphasis">Project 4</a></figcaption>
+                    </figure>
+                </section>
+            </section>
+
+            <section class="my-4">
+                <h2 class="mb-1">About me</h2>
+                <p>Ut eu hendrerit sapien, eget scelerisque dolor. Curabitur facilisis efficitur neque, ut
+                    volutpat enim porta sit amet. Donec rutrum gravida libero. Ut elementum odio vitae quam ornare,
+                    molestie aliquam lacus bibendum. Morbi vehicula accumsan neque, quis pharetra orci lobortis et.
+                    Suspendisse et magna nisl. Morbi vulputate elit sed lectus feugiat sodales. Cras luctus feugiat
+                    nisl, eu ultrices purus fermentum sed. In fringilla interdum finibus.</p>
+
+                <h3 class="my-1 mt-4">Proin tristique hendrerit quam:</h4>
+                    <ul>
+                        <li>Quis maximus ex fringilla ut</li>
+                        <li>Morbi sed elit eget arcu efficitur auctor id quis augue</li>
+                        <li>Aliquam in nisl a ligula condimentum venenatis</li>
+                        <li>Fusce imperdiet ullamcorper risus</li>
+                    </ul>
+
+                    <p class="my-2 mb-4">Cras consectetur nunc erat, eget gravida enim dignissim sed. Donec rhoncus
+                        velit vel nunc eleifend
+                        sed euismod arcu ultrices. Praesent blandit ex nisi, vel mollis nulla tristique ut. Nulla
+                        mattis,
+                        tortor et auctor rhoncus, orci ligula finibus nibh, id placerat quam nisl sed orci. Donec
+                        hendrerit
+                        cursus enim in malesuada. Sed semper lorem id orci tempor, ac ornare neque mattis. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nec
+                        lobortis
+                        tellus. Fusce id mauris gravida, consectetur massa ut, luctus ipsum. Fusce at venenatis neque, a
+                        molestie lorem. Nullam rutrum maximus dictum. Suspendisse faucibus luctus turpis, imperdiet
+                        rhoncus
+                        risus auctor sed.</p>
+
+                    <a href="" class="link-body-emphasis">Get in touch</a>
+            </section>
+        </main>
+
+        <footer class="container-fluid text-center my-5">
+            <!-- Icons in a responsive centered format -->
+            <section class="row border-top border-bottom border-secondary py-2">
+                <a class="col"
+                    href="https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa"><img
+                        class="w-15 d-inline-block m-3 " src="./img/AA.webp"
+                        alt="Image indicated WCAG AA guidelines"></a>
+                <a class="col" href="https://github.com/J-Wll"><img
+                        class="w-15 d-inline-block m-3 border border-white rounded-circle border-2"
+                        src="./img/github-mark.png" alt="Github logo linking to my profile"></a>
+                <a class="col" href="https://www.linkedin.com/in/joe-westwell/"><img class="w-15 d-inline-block m-3"
+                        src="./img/LinkedIn_icon.svg" alt="LinkedIn logo linking to my profile"></a>
+            </section>
+            <section class="row mt-3">
+                <p>This is a test page, with mostly filler information</p>
+            </section>
+        </footer>
+    </div>
+</body>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<!-- My JS -->
+<script src="./js/app.js"></script>
+</html>
