@@ -37,8 +37,8 @@ a,p,.nav-link, li {
 
 @media (min-width: 1200px){
 .px-lg-8 {
-    padding-right: 6rem!important;
-    padding-left: 6em!important;
+    padding-right: 7rem!important;
+    padding-left: 7em!important;
 }}
 
 .nav-link {
