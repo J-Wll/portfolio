@@ -22,7 +22,6 @@ li {
 #dark-mode-toggle {
     display: inline;
     background-size: contain;
-    background-color: transparent;
     width: 45px;
     height: 45px;
     border: 0;
