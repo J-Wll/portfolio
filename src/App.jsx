@@ -1,6 +1,6 @@
 import "./assets/app.css"
-import flashcards from "./assets/flashcards.webp"
-// import flashcards from "./assets/flashcards.webp"
+import flashcards from "./assets/flashcards-s.webp"
+import tower from "./assets/tower-s.webp"
 // import flashcards from "./assets/flashcards.webp"
 // import flashcards from "./assets/flashcards.webp"
 import lightdark from "./assets/lightdark.png"
@@ -24,7 +24,7 @@ function App() {
 
   function Header() {
     return (
-      <header className="border-top border-bottom border-secondary py-2 my-3">
+      <header className="border-top border-bottom border-secondary py-2 my-3 container-xl">
         {/* <!-- Collapsable bootstrap navbar with dropdowns, see: https://getbootstrap.com/docs/5.3/components/navbar/--> */}
         <nav className="navbar navbar-expand-md">
           <div className="container-fluid">
@@ -55,7 +55,7 @@ function App() {
 
                 <li className="nav-item mx-lg-4 m-1"><a className="nav-link" href="">CV & Contact</a></li>
                 <li className="nav-item mx-lg-4 m-1 "><button id="dark-mode-toggle"
-                  className="align-middle border border-white rounded-circle border-2"
+                  className="align-middle border border-white rounded-circle border-2 mx-2"
                   title="Dark mode toggle button" onClick={lightDarkFunc} style={{ backgroundImage: `url(${lightdark})` }}></button></li>
               </ul>
             </div>
@@ -67,7 +67,7 @@ function App() {
 
   function Footer() {
     return (
-      <footer className="container-fluid text-center my-5">
+      <footer className="container-xl text-center my-5">
         {/* <!-- Icons in a responsive centered format --> */}
         <section className="row border-top border-bottom border-secondary py-2">
           <a className="col" href="https://github.com/J-Wll"><img
@@ -86,9 +86,9 @@ function App() {
       <Header />
 
       <main>
-        <section className="introduction">
-          <h1 className="mt-3">Developer Portfolio</h1>
-          <p>Graduate software developer seeking an opportunity to break into the industry. I am in
+        <section className="introduction container-xl">
+          <h1 className="my-4">Developer Portfolio</h1>
+          <p className="">Graduate software developer seeking an opportunity to break into the industry. I am in
             the Manchester area and am looking to grow
             as part of a team and to continue to learn and improve my skills. I have experience throughout the
             stack and open to a variety of roles. Outside of my bachelors degree I
@@ -107,11 +107,13 @@ function App() {
                 alt="Banner image for Flashcards program"></img></a>
               <figcaption className=""><a href="" className="link-body-emphasis">Flashcards (React)</a></figcaption>
             </figure>
+
             <figure className="banner-block col my-3">
-              <a href=""><img className="img-banner" src="./img/p2.webp"
+              <a href=""><img className="img-banner" src={tower}
                 alt="Banner image for tower defence project"></img></a>
               <figcaption className=""><a href="" className="link-body-emphasis">Tower Defence (Java)</a></figcaption>
             </figure>
+
           </section>
           <section className="row-2 row text-center">
             <figure className="banner-block col my-3">
@@ -119,23 +121,25 @@ function App() {
               <figcaption className=""><a href="" className="link-body-emphasis">CRM software (Node, Express,
                 Mongodb)</a></figcaption>
             </figure>
+
             <figure className="banner-block col my-3">
               <a href=""><img className="img-banner" src="./img/p4.webp" alt="Banner image for project 4"></img></a>
               <figcaption className=""><a href="" className="link-body-emphasis">Developer companion (React,
                 Electron)</a></figcaption>
             </figure>
+
           </section>
           <a href="https://github.com/J-Wll" className="link-body-emphasis">
             <h2>GitHub</h2>
           </a>
         </section>
 
-        <section className="my-4">
-          <h2 className="mb-1">About me</h2>
+        <section className="my-4 container-xl">
+          {/* <h2 className="mb-1">About me</h2> */}
 
           <h4 className="my-1 mt-4">Education:</h4>
           <ul>
-            <li>First className BSc Hons Software Development from UCEN Manchester (Top-up)</li>
+            <li>First class BSc Hons Software Development from UCEN Manchester (Top-up)</li>
             <li>Distinction HND in computing from the University of Bolton</li>
             <li>2 short programming bootcamps, one focusing on python and one more general</li>
             <li>A variety of further education from websites such as freeCodeCamp, Coursera and Brilliant</li>
