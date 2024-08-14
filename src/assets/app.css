@@ -41,6 +41,7 @@
     max-width: 750px;
     min-width: 400px;
     aspect-ratio: 1.7 / 1;
+    border-radius: 5px;
 }
 
 .project-banners {
