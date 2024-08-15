@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import lightdark from "../assets/lightdark.png"
 
 export default function Header() {
@@ -19,7 +20,7 @@ export default function Header() {
             {/* <!-- Collapsable bootstrap navbar with dropdowns, see: https://getbootstrap.com/docs/5.3/components/navbar/--> */}
             <nav className="navbar navbar-expand-md">
                 <div className="container-fluid">
-                    <a href="" className="navbar-brand mr-sm-4 p-0">Joe Westwell</a>
+                    <Link to="/" className="navbar-brand mr-sm-4 p-0">Joe Westwell</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -28,15 +29,15 @@ export default function Header() {
 
                     <div className="mx-lg-4 collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">
-                            <li className="nav-item mx-lg-4 m-1 "><a className="nav-link active" href="">Home</a></li>
+                            <li className="nav-item mx-lg-4 m-1 "><Link className="nav-link active" to="/">Home</Link></li>
                             <li className="nav-item dropdown mx-lg-4 m-1"><a className="nav-link dropdown-toggle" role="button"
                                 data-bs-toggle="dropdown" aria-label="Projects submenu" aria-expanded="false"
                                 href="">Projects</a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="">MazeGen</a></li>
-                                    <li><a className="dropdown-item" href="">Flashcards</a></li>
-                                    <li><a className="dropdown-item" href="">CRM</a></li>
-                                    <li><a className="dropdown-item" href="">Project 4</a></li>
+                                    <li><a className="dropdown-item" to="">MazeGen</a></li>
+                                    <li><Link className="dropdown-item" to="/flashcards" >Flashcards</Link></li>
+                                    <li><a className="dropdown-item" to="">CRM</a></li>
+                                    <li><a className="dropdown-item" to="">Project 4</a></li>
                                     <li>
                                         <hr className="dropdown-divider"></hr>
                                     </li>
