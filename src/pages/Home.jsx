@@ -1,8 +1,9 @@
-// import flashcards from "./assets/flashcards.webp"
-// import flashcards from "./assets/flashcards.webp"
+import { Link } from "react-router-dom"
 
 import flashcardsImg from "../assets/flashcards-s.webp"
 import towerImg from "../assets/tower-s.webp"
+import devCompImg from "../assets/dev-comp-s.webp"
+import ceromImg from "../assets/cerom-s.webp"
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
 
       <section className="introduction container-xl">
         <h1 className="my-4">Developer Portfolio</h1>
-        <p className="">Graduate software developer seeking an opportunity to break into the industry. I am in
-          the Manchester area and am looking to grow
+        <p className="">I am a graduate software developer seeking an opportunity to break into the industry. I am in
+          the Manchester (UK) area and am looking to grow
           as part of a team and to continue to learn and improve my skills. I have experience throughout the
           stack and open to a variety of roles. Outside of my bachelors degree I
           have completed supplemental programming bootcamps, certifications and more.</p>
@@ -25,29 +26,29 @@ export default function Home() {
         <p>(Click for more information)</p>
         <section className="row-1 row text-center">
           <figure className="banner-block col my-3">
-            <a href="/flashcards"><img className="img-banner" src={flashcardsImg}
-              alt="Banner image for Flashcards program"></img></a>
-            <figcaption className=""><a href="" className="link-body-emphasis">Flashcards (React)</a></figcaption>
+            <Link to="/flashcards"><img className="img-banner" src={flashcardsImg}
+              alt="Banner image for Flashcards program"></img></Link>
+            <figcaption className=""><Link to="/flashcards" className="link-body-emphasis">Flashcards (React)</Link></figcaption>
           </figure>
 
           <figure className="banner-block col my-3">
-            <a href=""><img className="img-banner" src={towerImg}
-              alt="Banner image for tower defence project"></img></a>
-            <figcaption className=""><a href="" className="link-body-emphasis">Tower Defence (Java)</a></figcaption>
+            <Link to="/tower"><img className="img-banner" src={towerImg}
+              alt="Banner image for tower defence project"></img></Link>
+            <figcaption className=""><Link to="/tower" className="link-body-emphasis">Tower Defence (Java)</Link></figcaption>
           </figure>
 
         </section>
         <section className="row-2 row text-center">
           <figure className="banner-block col my-3">
-            <a href=""><img className="img-banner" src="./img/p3.webp" alt="Banner image for project 3"></img></a>
-            <figcaption className=""><a href="" className="link-body-emphasis">CRM software (Node, Express,
-              Mongodb)</a></figcaption>
+            <Link to="/cerom"><img className="img-banner" src={ceromImg} alt="Banner image for project 3"></img></Link>
+            <figcaption className=""><Link to="/cerom" className="link-body-emphasis">CRM software (Node, Express,
+              Mongodb)</Link></figcaption>
           </figure>
 
           <figure className="banner-block col my-3">
-            <a href=""><img className="img-banner" src="./img/p4.webp" alt="Banner image for project 4"></img></a>
-            <figcaption className=""><a href="" className="link-body-emphasis">Developer companion (React,
-              Electron)</a></figcaption>
+            <Link to="/DevComp"><img className="img-banner" src={devCompImg} alt="Banner image for project 4"></img></Link>
+            <figcaption className=""><Link to="/DevComp" className="link-body-emphasis">Developer companion (React,
+              Electron)</Link></figcaption>
           </figure>
 
         </section>

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './pages/Layout.jsx'
 import Home from './pages/Home.jsx'
 import Flashcards from './pages/Flashcards.jsx';
+import DevComp from './pages/DevComp.jsx';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import "./assets/app.css"
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="flashcards" element={<Flashcards />} />
+          <Route path="devcomp" element={<DevComp />} />
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route >
