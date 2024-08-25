@@ -46,8 +46,8 @@ export default function Home() {
           </figure>
 
           <figure className="banner-block col my-3">
-            <Link to="/DevComp"><img className="img-banner" src={devCompImg} alt="Banner image for project 4"></img></Link>
-            <figcaption className=""><Link to="/DevComp" className="link-body-emphasis">Developer companion (React,
+            <Link to="/devcomp"><img className="img-banner" src={devCompImg} alt="Banner image for project 4"></img></Link>
+            <figcaption className=""><Link to="/devcomp" className="link-body-emphasis">Developer companion (React,
               Electron)</Link></figcaption>
           </figure>
 
