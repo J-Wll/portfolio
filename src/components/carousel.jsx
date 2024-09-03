@@ -1,4 +1,5 @@
 export default function Carousel(props) {
+    const colour = props.arrowColour || "black";
     function Images() {
         const carouselItems = []
         for (let i = 0; i < props.imgs.length; i++) {
@@ -15,11 +16,11 @@ export default function Carousel(props) {
                 <Images />
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className={`carousel-control-prev-icon ${colour}`} aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
             </button>
             <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className={`carousel-control-next-icon ${colour}`} aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
