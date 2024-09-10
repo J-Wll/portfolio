@@ -11,7 +11,7 @@ export default function Footer() {
                     src={github} alt="Github logo linking to my profile"></img></a>
                 <a className="col" href="https://www.linkedin.com/in/joe-westwell/"><img className="w-15 d-inline-block m-3"
                     src={linkedin} alt="LinkedIn logo linking to my profile"></img></a>
-                <p className="subtle">Website built with React and Bootstrap</p>
+                <p className="subtle">Website built with React and Bootstrap. <a href="https://github.com/J-Wll/portfolio">Repo</a></p>
             </section>
         </footer>
     )
