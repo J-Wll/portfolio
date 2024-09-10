@@ -34,14 +34,14 @@ export default function Header() {
                                 data-bs-toggle="dropdown" aria-label="Projects submenu" aria-expanded="false"
                                 href="">Projects</a>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="/flashcards" >Flashcards</Link></li>
-                                    <li><Link className="dropdown-item" to="/tower">Tower Defence</Link></li>
                                     <li><Link className="dropdown-item" to="/cerom">Cerom CRM</Link></li>
                                     <li><Link className="dropdown-item" to="/devcomp">Developer Companion</Link></li>
+                                    <li><Link className="dropdown-item" to="/flashcards" >Flashcards</Link></li>
+                                    <li><Link className="dropdown-item" to="/tower">Tower Defence</Link></li>
                                     <li>
                                         <hr className="dropdown-divider"></hr>
                                     </li>
-                                    <li><a className="dropdown-item" href="https://github.com/J-Wll">More on Github</a></li>
+                                    <li><a className="dropdown-item" href="https://github.com/J-Wll">More on GitHub</a></li>
                                 </ul>
                             </li>
 

@@ -42,7 +42,7 @@ export default function Home() {
           <figure className="banner-block col my-3">
             <Link to="/cerom"><img className="img-banner" src={ceromImg} alt="Banner image for project 3"></img></Link>
             <figcaption className=""><Link to="/cerom" className="link-body-emphasis">CRM software (Node, Express,
-              Mongodb)</Link></figcaption>
+              MongoDB)</Link></figcaption>
           </figure>
 
           <figure className="banner-block col my-3">
@@ -53,7 +53,7 @@ export default function Home() {
 
         </section>
         <a href="https://github.com/J-Wll" className="link-body-emphasis">
-          <h2>GitHub</h2>
+          <h2>My GitHub</h2>
         </a>
       </section>
 
