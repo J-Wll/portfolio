@@ -45,7 +45,7 @@ export default function Header() {
                                 </ul>
                             </li>
 
-                            <li className="nav-item mx-lg-4 m-1"><a className="nav-link" href="">CV & Contact</a></li>
+                            <li className="nav-item mx-lg-4 m-1"><Link className="nav-link" to="/contact">CV & Contact</Link></li>
                             <li className="nav-item mx-lg-4 m-1 "><button id="dark-mode-toggle"
                                 className="align-middle border border-white rounded-circle border-2 mx-2"
                                 title="Dark mode toggle button" onClick={lightDarkFunc} style={{ backgroundImage: `url(${lightdark})` }}></button></li>
