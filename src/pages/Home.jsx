@@ -12,7 +12,7 @@ export default function Home() {
       <section className="introduction container-xl">
         <h1 className="my-4">Developer Portfolio</h1>
         <p className="">I am a graduate software developer seeking an opportunity to break into the industry. I am in
-          the Manchester (UK) area and am looking to grow
+          the Greater Manchester area and am looking to grow
           as part of a team and to continue to learn and improve my skills. I have experience throughout the
           stack and open to a variety of roles. Outside of my bachelors degree I
           have completed supplemental programming bootcamps, certifications and more.</p>
@@ -32,17 +32,17 @@ export default function Home() {
           </figure>
 
           <figure className="banner-block col my-3">
-            <Link to="/tower"><img className="img-banner" src={towerImg}
-              alt="Banner image for tower defence project"></img></Link>
-            <figcaption className=""><Link to="/tower" className="link-body-emphasis">Tower Defence (Java)</Link></figcaption>
+            <Link to="/cerom"><img className="img-banner" src={ceromImg} alt="Banner image for project 3"></img></Link>
+            <figcaption className=""><Link to="/cerom" className="link-body-emphasis">CRM software (Node, Express,
+              MongoDB)</Link></figcaption>
           </figure>
 
         </section>
         <section className="row-2 row text-center">
           <figure className="banner-block col my-3">
-            <Link to="/cerom"><img className="img-banner" src={ceromImg} alt="Banner image for project 3"></img></Link>
-            <figcaption className=""><Link to="/cerom" className="link-body-emphasis">CRM software (Node, Express,
-              MongoDB)</Link></figcaption>
+            <Link to="/tower"><img className="img-banner" src={towerImg}
+              alt="Banner image for tower defence project"></img></Link>
+            <figcaption className=""><Link to="/tower" className="link-body-emphasis">Tower Defence (Java)</Link></figcaption>
           </figure>
 
           <figure className="banner-block col my-3">
