@@ -65,6 +65,10 @@ li {
     padding-left: 1rem !important;
 }
 
+.center {
+    align-self: center;
+    text-align: center;
+}
 
 
 /* Large */
