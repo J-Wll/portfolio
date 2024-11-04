@@ -3,7 +3,7 @@ import BigLink from "../components/biglink"
 import getImages from "../helper/getImages"
 
 export default function DevComp() {
-    const imgs = getImages("devcomp", 6)
+    const imgs = getImages("devcomp", 4)
     return (
         <>
             <div className="container-xl center">
