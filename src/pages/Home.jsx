@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 
 const BASE_PATH = import.meta.env.VITE_BASE_PATH || "";
 
+
 export default function Home() {
 
   return (
@@ -19,17 +20,17 @@ export default function Home() {
       </section>
 
       {/* <!-- Section of project banner images and captions, fitting either one or two per row depending on resolution --> */}
-      <section className="project-banners container-fluid my-3 pt-3 p-0 px-md-3 px-1 text-center">
+      <section className="project-banners container-fluid my-3 pt-3 p-0 px-md-3 text-center">
         <h2>Featured projects:</h2>
         <p className="subtle">(Click each for more information)</p>
         <section className="row-1 row text-center">
-          <figure className="banner-block col my-3 mx-3">
+          <figure className="banner-block col my-3">
             <Link to="/flashcards"><img className="img-banner" src={`${BASE_PATH}flashcards-s.webp`}
               alt="Banner image for Flashcards program"></img></Link>
             <figcaption className=""><Link to="/flashcards" className="link-body-emphasis">Flashcards (React)</Link></figcaption>
           </figure>
 
-          <figure className="banner-block col my-3 mx-3">
+          <figure className="banner-block col my-3">
             <Link to="/cerom">
               <img className="img-banner" src={`${BASE_PATH}cerom-s.webp`} alt="Banner image for project 3"></img>
             </Link>
@@ -38,14 +39,14 @@ export default function Home() {
 
         </section>
         <section className="row-2 row text-center">
-          <figure className="banner-block col my-3 mx-3">
+          <figure className="banner-block col my-3">
             <Link to="/tower">
               <img className="img-banner" src={`${BASE_PATH}tower-s.webp`} alt="Banner image for tower defence project"></img>
             </Link>
             <figcaption className=""><Link to="/tower" className="link-body-emphasis">Tower Defence (Java)</Link></figcaption>
           </figure>
 
-          <figure className="banner-block col my-3 mx-3">
+          <figure className="banner-block col my-3">
             <Link to="/devcomp">
               <img className="img-banner" src={`${BASE_PATH}dev-comp-s.webp`} alt="Banner image for project 4"></img>
             </Link>

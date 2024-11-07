@@ -43,7 +43,7 @@
 .img-banner {
     width: 100%;
     max-width: 750px;
-    min-width: 400px;
+    min-width: 425px;
     aspect-ratio: 1.7 / 1;
     border-radius: 5px;
 }
@@ -74,6 +74,29 @@ li {
 }
 
 
+/* These stop the image from being wonky at mobile resolutions */
+/* Medium or lower */
+@media screen and (max-width: 768px) {
+    .img-banner {
+        min-width: 350px;
+    }
+}
+
+/* Small or lower */
+@media screen and (max-width: 576px) {
+    .img-banner {
+        min-width: 240px;
+    }
+}
+
+/* Tiny and lower */
+@media screen and (max-width: 325px) {
+    .img-banner {
+        min-width: 126px;
+    }
+}
+
+/* Font and padding scale */
 /* Large */
 @media screen and (min-width: 992px) {
 
