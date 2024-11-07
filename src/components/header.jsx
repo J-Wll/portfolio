@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import lightdark from "../assets/lightdark.png"
+import lightdark from "/lightdark.png"
 import { useLocation } from 'react-router-dom';
 
 export default function Header() {

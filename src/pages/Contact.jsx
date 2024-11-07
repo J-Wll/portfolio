@@ -10,7 +10,7 @@ export default function Contact() {
             <BigLink href="https://www.linkedin.com/in/joe-westwell/" text="My LinkedIn" />
             <BigLink href="https://github.com/J-Wll" text="My GitHub" />
             {/* TODO UPDATE TO FINAL CV */}
-            <BigLink href="https://raw.githubusercontent.com/J-Wll/portfolio/refs/heads/main/src/assets/cv.webp?token=GHSAT0AAAAAACUV5SPK25HAQASID45ETKV4ZYRLBNA" text="My CV" />
+            <BigLink href="/CV - Joe Westwell - 07_11_2024 Website version.pdf" text="My CV" />
         </div>
 
     )

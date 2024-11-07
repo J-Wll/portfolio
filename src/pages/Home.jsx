@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 
-import flashcardsImg from "../assets/flashcards-s.webp"
-import towerImg from "../assets/tower-s.webp"
-import devCompImg from "../assets/dev-comp-s.webp"
-import ceromImg from "../assets/cerom-s.webp"
+import flashcardsImg from "/flashcards-s.webp"
+import towerImg from "/tower-s.webp"
+import devCompImg from "/dev-comp-s.webp"
+import ceromImg from "/cerom-s.webp"
 
 export default function Home() {
   return (
