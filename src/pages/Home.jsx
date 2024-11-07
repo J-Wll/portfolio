@@ -21,7 +21,7 @@ export default function Home() {
       </section>
 
       {/* <!-- Section of project banner images and captions, fitting either one or two per row depending on resolution --> */}
-      <section className="project-banners container-fluid my-3 pt-3 p-0 px-md-5 px-1 text-center">
+      <section className="project-banners container-fluid my-3 pt-3 p-0 px-md-3 px-1 text-center">
         <h2>Featured projects:</h2>
         <p className="subtle">(Click each for more information)</p>
         <section className="row-1 row text-center">
