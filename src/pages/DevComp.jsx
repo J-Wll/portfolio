@@ -13,14 +13,13 @@ export default function DevComp() {
                 <BigLink href="https://github.com/J-Wll/dev-companion" text="GitHub Repo" />
                 <Carousel imgs={imgs} />
                 <p>Features:</p>
-                <ul className="center">
-                    <li>Todo-list</li>
-                    <li>Kanban board</li>
-                    <li>Reflective journal</li>
-                    <li>Notes</li>
-                    <li>Resources list</li>
-                    <li>Timers (Regular and Pomodoro)</li>
-                </ul>
+                <p className="p-list">Todo-list</p>
+                <p className="p-list">Kanban board</p>
+                <p className="p-list">Reflective journal</p>
+                <p className="p-list">Note taking</p>
+                <p className="p-list">Resources list</p>
+                <p className="p-list">Pomodoro Timers</p>
+                <p className="p-list mb-4">Regular Timers</p>
                 <p>This project is intended to create an all in one place for individual developers to be more efficient during a project. Allowing them to track progress, create notes and manage time.</p>
                 <p>The dynamic save/load system on both modules and workspaces allows for multiple projects to be tracked. </p>
 

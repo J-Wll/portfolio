@@ -17,8 +17,10 @@ export default function Footer() {
                     src={cv} alt="Icon indicating CV. Downloads PDF CV."></img></a>
                 <a className="col" href="https://www.linkedin.com/in/joe-westwell/" download><img className="w-15 d-inline-block m-3"
                     src={linkedin} alt="LinkedIn logo linking to my profile"></img></a>
-                <p className="subtle">Website built with React and Bootstrap. <a href="https://github.com/J-Wll/portfolio">Repo</a></p>
             </section>
+            <p className="mt-4 subtle">Website built with React and Bootstrap. <a href="https://github.com/J-Wll/portfolio">Repo</a></p>
+
         </footer>
+
     )
 }

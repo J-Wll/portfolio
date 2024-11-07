@@ -11,7 +11,7 @@ export default function Carousel(props) {
     }
 
     return (
-        <div id="carouselExample" className="carousel slide mt-3 mb-3">
+        <div id="carouselExample" className="carousel slide my-5">
             <div className="carousel-inner">
                 <Images />
             </div>

@@ -27,6 +27,10 @@
     background-color: rgb(36 41 47);
 }
 
+.navbar-collapse {
+    flex-grow: 0;
+}
+
 .navbar-nav {
     --bs-nav-link-color: var(--bs-navbar-color);
     --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
@@ -105,7 +109,9 @@ li {
     font-size: 1.5rem !important;
 }
 
-h1, h3, p{
+h1,
+h3,
+p {
     margin-bottom: 1rem;
 }
 
@@ -114,7 +120,7 @@ h1, h3, p{
     text-align: left;
 }
 
-.no-margin{
+.no-margin {
     margin: 0;
 }
 
@@ -138,6 +144,10 @@ h1, h3, p{
     filter: none;
 }
 
+.one-rem {
+    font-size: 1rem !important;
+}
+
 .subtle {
     font-size: 1rem !important;
     filter: opacity(0.85);
@@ -146,4 +156,16 @@ h1, h3, p{
 .subtle a {
     font-size: 1rem !important;
     color: var(--bs-body-color);
+}
+
+.link-blue {
+    color: rgb(169, 199, 255) !important;
+    text-decoration-color: rgb(169, 199, 255) !important;
+}
+
+.p-list {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75rem;
+    filter: opacity(0.95);
 }
