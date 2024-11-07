@@ -1,5 +1,7 @@
 
 import BigLink from "../components/biglink"
+const BASE_PATH = import.meta.env.VITE_BASE_PATH || "";
+
 export default function Contact() {
     return (
         <div className="container-xl">
@@ -10,7 +12,7 @@ export default function Contact() {
             <BigLink href="https://www.linkedin.com/in/joe-westwell/" text="My LinkedIn" />
             <BigLink href="https://github.com/J-Wll" text="My GitHub" />
             {/* TODO UPDATE TO FINAL CV */}
-            <BigLink href="/CV - Joe Westwell - 07_11_2024 Website version.pdf" text="My CV" />
+            <BigLink href={`${BASE_PATH}CV - Joe Westwell - 07_11_2024 Website version.pdf`} text="My CV" />
         </div>
 
     )

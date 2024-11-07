@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom"
 
-import flashcardsImg from "/flashcards-s.webp"
-import towerImg from "/tower-s.webp"
-import devCompImg from "/dev-comp-s.webp"
-import ceromImg from "/cerom-s.webp"
+const BASE_PATH = import.meta.env.VITE_BASE_PATH || "";
 
 export default function Home() {
+
   return (
     <>
 
@@ -26,29 +24,32 @@ export default function Home() {
         <p className="subtle">(Click each for more information)</p>
         <section className="row-1 row text-center">
           <figure className="banner-block col my-3 mx-3">
-            <Link to="/flashcards"><img className="img-banner" src={flashcardsImg}
+            <Link to="/flashcards"><img className="img-banner" src={`${BASE_PATH}flashcards-s.webp`}
               alt="Banner image for Flashcards program"></img></Link>
             <figcaption className=""><Link to="/flashcards" className="link-body-emphasis">Flashcards (React)</Link></figcaption>
           </figure>
 
           <figure className="banner-block col my-3 mx-3">
-            <Link to="/cerom"><img className="img-banner" src={ceromImg} alt="Banner image for project 3"></img></Link>
-            <figcaption className=""><Link to="/cerom" className="link-body-emphasis">CRM software (Node, Express,
-              MongoDB)</Link></figcaption>
+            <Link to="/cerom">
+              <img className="img-banner" src={`${BASE_PATH}cerom-s.webp`} alt="Banner image for project 3"></img>
+            </Link>
+            <figcaption className=""><Link to="/cerom" className="link-body-emphasis">CRM software (Node, Express, MongoDB)</Link></figcaption>
           </figure>
 
         </section>
         <section className="row-2 row text-center">
           <figure className="banner-block col my-3 mx-3">
-            <Link to="/tower"><img className="img-banner" src={towerImg}
-              alt="Banner image for tower defence project"></img></Link>
+            <Link to="/tower">
+              <img className="img-banner" src={`${BASE_PATH}tower-s.webp`} alt="Banner image for tower defence project"></img>
+            </Link>
             <figcaption className=""><Link to="/tower" className="link-body-emphasis">Tower Defence (Java)</Link></figcaption>
           </figure>
 
           <figure className="banner-block col my-3 mx-3">
-            <Link to="/devcomp"><img className="img-banner" src={devCompImg} alt="Banner image for project 4"></img></Link>
-            <figcaption className=""><Link to="/devcomp" className="link-body-emphasis">Developer companion (React,
-              Electron)</Link></figcaption>
+            <Link to="/devcomp">
+              <img className="img-banner" src={`${BASE_PATH}dev-comp-s.webp`} alt="Banner image for project 4"></img>
+            </Link>
+            <figcaption className=""><Link to="/devcomp" className="link-body-emphasis">Developer companion (React, Electron)</Link></figcaption>
           </figure>
 
         </section>

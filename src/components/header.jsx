@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
-import lightdark from "/lightdark.png"
 import { useLocation } from 'react-router-dom';
+
+const BASE_PATH = import.meta.env.VITE_BASE_PATH || "";
 
 export default function Header() {
     function lightDarkFunc() {
@@ -17,7 +18,6 @@ export default function Header() {
     }
 
     const path = useLocation().pathname;
-    console.log(path);
     // messy solution
     const projects = ["/cerom", "/devcomp", "/flashcards", "/tower"];
     const inProjects = projects.includes(path) ? "active" : "";
@@ -55,7 +55,7 @@ export default function Header() {
                             <li className="nav-item mx-lg-4 m-1"><Link className={`nav-link ${path === "/contact" ? "active" : ""}`} to="/contact">CV & Contact</Link></li>
                             <li className="nav-item mx-lg-4 m-1 "><button id="dark-mode-toggle"
                                 className="align-middle border border-white rounded-circle border-2 mx-2"
-                                title="Dark mode toggle button" onClick={lightDarkFunc} style={{ backgroundImage: `url(${lightdark})` }}></button></li>
+                                title="Dark mode toggle button" onClick={lightDarkFunc} style={{ backgroundImage: `url(${`${BASE_PATH}lightdark.png`})` }}></button></li>
                         </ul>
                     </div>
                 </div>
