@@ -62,8 +62,8 @@ export default function Home() {
 
         <h4 className="my-1 mt-5">Education:</h4>
         <ul>
-          <li>First class BSc Hons Software Development from UCEN Manchester (Top-up)</li>
-          <li>Distinction HND in computing from the University of Bolton</li>
+          <li>First class BSc Hons Software Development from UCEN Manchester (Top-up). Received an academic achievement award</li>
+          <li>Distinction HND in computing from the University of Bolton. Received the Governors' Prize for Final Assessment Highest Academic Achievement (Pre-Bach)</li>
           <li>2 short programming bootcamps, one focusing on python and one more general</li>
           <li>A variety of further education from websites such as freeCodeCamp, Coursera and Brilliant</li>
           <a href="https://www.linkedin.com/in/joe-westwell/" className="link-body-emphasis">See more on my LinkedIn</a>
