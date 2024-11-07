@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from './pages/Layout.jsx'
 import Home from './pages/Home.jsx'
 import Flashcards from './pages/Flashcards.jsx';
@@ -15,7 +15,7 @@ import "./assets/app.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* All contained within the layout component which introduces header and footer */}
         <Route path="/" element={<Layout />}>
@@ -28,6 +28,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="*" element={<NoPage />} />
         </Route >
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )
