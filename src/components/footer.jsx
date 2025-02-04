@@ -21,7 +21,7 @@ export default function Footer() {
                         alt="Icon indicating email. Link to westwellWork@gmail.com"
                     />
                 </a>
-                <a className="col" href={`${BASE_PATH}CV - Joe Westwell - 07_11_2024 Website version.pdf`}>
+                <a className="col" href={`${BASE_PATH}CV - Website Version - Joe Westwell - 20_01_2025.pdf`}>
                     <img
                         className="w-15 d-inline-block m-3"
                         src={`${BASE_PATH}cv.webp`}

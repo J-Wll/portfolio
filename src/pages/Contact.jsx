@@ -12,7 +12,7 @@ export default function Contact() {
             <BigLink href="https://www.linkedin.com/in/joe-westwell/" text="My LinkedIn" />
             <BigLink href="https://github.com/J-Wll" text="My GitHub" />
             {/* TODO UPDATE TO FINAL CV */}
-            <BigLink href={`${BASE_PATH}CV - Joe Westwell - 07_11_2024 Website version.pdf`} text="My CV" />
+            <BigLink href={`${BASE_PATH}CV - Website Version - Joe Westwell - 20_01_2025.pdf`} text="My CV" />
         </div>
 
     )
