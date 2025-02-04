@@ -76,8 +76,7 @@ export default function Home() {
           <li>Front end web development technologies: React, Javascript, HTML, CSS </li>
           <li>Experience with the back end including Node.js, Express and MongoDB</li>
           <li>Systems programming with Java and C++</li>
-          <li>Teamwork and organisation practiced through team projects in University and on the bootcamps
-          </li>
+          <li>Teamwork and organisation practiced through team projects in University and on programming bootcamps</li>
           <li>A drive for self learning demonstrated by extra-curricular studies</li>
         </ul>
 
